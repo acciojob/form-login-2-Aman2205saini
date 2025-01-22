@@ -1,5 +1,6 @@
 //your JS code here. If required.
-function getvalue(){
+function getvalue(event){
+    event.preventDefault();
 	var fname=document.getElementsByName("First Name")[0].value;
 	var lname=document.getElementsByName("Last Name")[0].value;
 	var phone=document.getElementsByName("Phone Number")[0].value;
