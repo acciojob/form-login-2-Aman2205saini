@@ -5,5 +5,9 @@ function getvalue(){
 	var phone=document.getElementsByName("phone")[0].value;
 	var email=document.getElementsByName("email")[0].value;
 
-	alert(`First Name: ${fname} Last Name: ${lname} Phone Number: ${phone} Email ID:${email}`)
+	alert(`
+	First Name: ${fname}
+	Last Name: ${lname}
+	Phone Number: ${phone}
+	Email ID:${email}`)
 }
