@@ -1,9 +1,9 @@
 //your JS code here. If required.
 function getvalue(){
-	var fname=document.getElementsByName("fname")[0].value;
-	var lname=document.getElementsByName("lname")[0].value;
-	var phone=document.getElementsByName("phone")[0].value;
-	var email=document.getElementsByName("email")[0].value;
+	var fname=document.getElementsByName("First Name")[0].value;
+	var lname=document.getElementsByName("Last Name")[0].value;
+	var phone=document.getElementsByName("Phone Number")[0].value;
+	var email=document.getElementsByName("Email ID")[0].value;
 
 	alert(`
 	First Name: ${fname}
